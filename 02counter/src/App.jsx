@@ -8,8 +8,14 @@ function App() {
   //let counter=15
   const addValue=()=>{
     // counter=counter+1
-    setCounter(counter+1)
+    // setCounter(counter+1)
     // console.log("clicked",counter);
+    setCounter(prevCounter=>prevCounter+1)
+    setCounter(prevCounter=>prevCounter+1)
+    setCounter(prevCounter=>prevCounter+1)
+    setCounter(prevCounter=>prevCounter+1)
+    setCounter(prevCounter=>prevCounter+1)
+    //bunch of batch send to compiler
   }
     const removeValue= ()=>{
       setCounter(counter-1)
