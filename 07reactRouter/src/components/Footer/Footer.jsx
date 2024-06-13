@@ -24,11 +24,13 @@ export default function Footer() {
                                         Home
                                     </Link>
                                 </li>
+                                
                                 <li>
                                     <Link to="/about" className="hover:underline">
                                         About
                                     </Link>
                                 </li>
+                                
                             </ul>
                         </div>
                         <div>
